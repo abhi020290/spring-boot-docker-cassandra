@@ -1,0 +1,11 @@
+server:
+    port: 4070
+spring:
+    data:
+        cassandra:
+            contact-points: cassandra
+            keyspace-name: reference_keyspace
+            local-datacenter: datacenter1
+            password: ''
+            port: 9042
+            username: ''
